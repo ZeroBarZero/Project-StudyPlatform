@@ -1,21 +1,26 @@
 <template>
-  <footer>
-    <div class="container">
+  <v-footer
+     height="auto"
+     color="primary lighten-1">
+    <v-layout
+     justify-center
+     row
+     wrap>
       <router-link class="logo-font" :to="{ name: 'home', params: {} }">
-        conduit
+        study365
       </router-link>
-      <span class="attribution">
+      <v-flex class="attribution">
         An interactive learning project from
         <a rel="noopener noreferrer" target="blank" href="https://thinkster.io"
-          >Thinkster</a
-        >. Code &amp; design licensed under MIT.
-      </span>
-    </div>
-  </footer>
+          >Thinkster</a>. Code &amp; design licensed under MIT.
+      </v-flex>
+    </v-layout>
+  </v-footer>
 </template>
 
 <script>
 export default {
   name: "RwvFooter"
+  
 };
 </script>

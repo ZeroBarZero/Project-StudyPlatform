@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import RwvLogin from '@/components/Login.vue'
+import RwvLogin from '@/views/Login.vue'
 
 export default {
   name: 'Login',
