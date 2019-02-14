@@ -1,16 +1,13 @@
 <template>
   <div class="home">
-    <RwvLogin/>
+    take me home 
   </div>
 </template>
 
 <script>
-import RwvLogin from '@/views/Login.vue'
 
 export default {
-  name: 'Login',
-  components: {
-    RwvLogin
-  }
+  name: 'home',
+
 };
 </script>
